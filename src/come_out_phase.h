@@ -11,6 +11,7 @@
 class ComeOutPhase : public Phase
 {
 public:
+ComeOutPhase();
 RollOutcome get_outcome(Roll*,int roll);
 
 private:

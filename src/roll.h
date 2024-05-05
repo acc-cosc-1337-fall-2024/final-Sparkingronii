@@ -9,13 +9,13 @@
 class Roll
 {
 public:
-Roll(int& Die1, int& Die2);
+int Roll::dieroll(int& die1,int& die2);
 void roll_dice();
 int const roll_value();
 
 private:
-Die& die1();
-Die& die2();
+Die& die1;
+Die& die2;
 int rolled_value();
 
 };
