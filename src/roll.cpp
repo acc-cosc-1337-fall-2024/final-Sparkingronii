@@ -5,9 +5,7 @@
 #include<die.h>
 #include<roll.h>
 
-int Roll::dieroll(int& die1, int& die2)
+void Roll::roll_dice()
 {
-int die1 = 0;
-int die2 = 0;
 
 }

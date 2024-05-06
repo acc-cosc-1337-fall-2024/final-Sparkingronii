@@ -8,8 +8,9 @@
 
 class Roll
 {
+
 public:
-int Roll::dieroll(int& die1,int& die2);
+Roll(Die& roll1,Die& roll2) : die1(roll1), die2(roll2) {};
 void roll_dice();
 int const roll_value();
 
