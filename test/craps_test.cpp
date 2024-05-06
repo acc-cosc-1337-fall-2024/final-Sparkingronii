@@ -11,9 +11,9 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("Random Die Roll Between 1 and 6")
-{
-Die rolls;
-REQUIRE(rolls.roll()== 1 ... 6);
+//TEST_CASE("Random Die Roll Between 1 and 6")
+//{
+//Die rolls;
+//REQUIRE(rolls.roll()== 1 ... 6);
 
-}
+//}

@@ -17,7 +17,7 @@ int const roll_value();
 private:
 Die& die1;
 Die& die2;
-int rolled_value();
+int rolled_value;
 
 };
 

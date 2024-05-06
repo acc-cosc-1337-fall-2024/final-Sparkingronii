@@ -5,7 +5,14 @@
 #include<die.h>
 #include<roll.h>
 
-void Roll::roll_dice()
+Roll::Roll(Die& roll1,Die& roll2)
 {
+void roll_dice()
+    {
+        roll1.roll();
+        roll2.roll();
 
-}
+    };
+
+
+};
