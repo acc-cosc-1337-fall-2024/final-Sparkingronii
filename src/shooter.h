@@ -10,13 +10,14 @@
 class Shooter
 {
 public:
-Roll* throw_dice(Die&, Die&);
+Roll* throw_dice(Die& a, Die& b);
 void display_rolled_values();
 ~Shooter();
 
 private:
-std::vector<Roll> rolls(Roll*);
-
+//std::vector<Roll>& rolls(Roll*);// = new int [roll_value]);
+//int rolls(std::vector<Roll>& (Roll* = new int[]));
+std::vector<Roll>& Shooter::rolls;//(Roll*);
 };
 
 #endif
