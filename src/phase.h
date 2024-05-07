@@ -10,8 +10,8 @@
 class Phase
 {
 public:
-enum class RollOutcome : char {natural, craps, point, seven_out, nopoint};
-RollOutcome get_outcome(Roll*,int roll);
+enum class RollOutcome : int {natural, craps, point, seven_out, nopoint};
+RollOutcome get_outcome(Roll* roll);
 virtual int rolled_value() = 0;
 
 private:

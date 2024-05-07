@@ -7,8 +7,8 @@
 
 Roll::Roll(Die& roll1,Die& roll2)
 {
-    die1 = roll1;
-    die2 = roll2;
+    //die1 = roll1;
+    //die2 = roll2;
 
     
 };
