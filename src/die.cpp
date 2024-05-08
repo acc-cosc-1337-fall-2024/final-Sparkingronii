@@ -11,7 +11,7 @@ int Die::roll()
 {
 srand(time(0));
 //int rolls = 1 + (rand() % 6);
-int roll = 0;
-roll = 1 + rand() % 6;
-return roll;
+int random = 0;
+random = 1 + rand() % 6;
+return random;
 }
