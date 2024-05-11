@@ -6,7 +6,7 @@
 #include<roll.h>
 #ifndef SHOOTER_H
 #define SHOOTER_H
-/*/
+
 class Shooter
 {
 public:

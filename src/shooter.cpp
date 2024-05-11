@@ -5,7 +5,7 @@
 #include<die.h>
 #include<roll.h>
 #include<shooter.h>
-/*/
+
 Roll* Shooter::throw_dice(Die& a, Die& b)
 {
 
