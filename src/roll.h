@@ -5,7 +5,7 @@
 #include<die.h>
 #ifndef ROLL_H
 #define ROLL_H
-/*/
+
 class Roll
 {
 
@@ -26,4 +26,3 @@ int rolled_value;
 };
 
 #endif
-/*/
