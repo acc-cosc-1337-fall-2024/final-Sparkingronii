@@ -6,7 +6,7 @@
 #include<roll.h>
 #ifndef SHOOTER_H
 #define SHOOTER_H
-
+/*/
 class Shooter
 {
 public:
@@ -15,9 +15,9 @@ void display_rolled_values();
 ~Shooter();
 
 private:
-//std::vector<Roll>& rolls(Roll*);// = new int [roll_value]);
+//std::vector<Roll>& rolls((int Roll*) = new int [roll_value]);
 //int rolls(std::vector<Roll>& (Roll* = new int[]));
-std::vector<Roll>& Shooter::rolls;//(Roll*);
+std::vector<Roll>& Shooter::rolls(Roll*);
 };
 
 #endif

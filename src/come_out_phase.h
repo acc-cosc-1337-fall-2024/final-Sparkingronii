@@ -6,20 +6,20 @@
 #include<roll.h>
 #include<shooter.h>
 #include<phase.h>
-#ifndef COME_OUT_PHASE_H
-#define COME_OUT_PHASE_H
+//#ifndef COME_OUT_PHASE_H
+//#define COME_OUT_PHASE_H
 
-class ComeOutPhase : public Phase
-{
-public:
+//class ComeOutPhase : public Phase
+//{
+//public:
 //ComeOutPhase();
 //RollOutcome get_outcome(Roll*,int roll);
-RollOutcome get_outcome(Roll* roll);
+//RollOutcome get_outcome(Roll* roll);
 
 
-private:
+//private:
 
 
-};
+//};
 
-#endif
+//#endif
